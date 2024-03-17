@@ -44,7 +44,7 @@ GET http://localhost:8081/books/
 
 Invoking the above endpoint should give you the following book kind of response (if there is any book available in database):
 ```
-[{"id":727,"description":"test","country":"United States","bookDate":"2023-10-23","amount":"25.00","originalAmount":null}]
+[{"id":6,"title":"Donos de Portugal","author":"Helenelizabeth Blakemore","country":"United States","genre":"Documentary","year":"2006","borrowed":null},{"id":5,"title":"Meteor","author":"Sullivan Carillo","country":"China","genre":"Action|Drama|Sci-Fi","year":"2002","borrowed":null},{"id":4,"title":"Entre nos (Between Us)","author":"Valry Bradbrook","country":"Indonesia","genre":"Drama","year":"2004","borrowed":null},{"id":3,"title":"Remote Control","author":"Mil Haith","country":"United States","genre":"Comedy|Drama","year":"2010","borrowed":null},{"id":2,"title":"Infinity","author":"Huey Palin","country":"Japan","genre":"Drama","year":"1992","borrowed":null},{"id":1,"title":"Killers","author":"Carroll Stormont","country":"Portugal","genre":"Action|Comedy","year":"2006","borrowed":null}]
 ```
 
 **UI**

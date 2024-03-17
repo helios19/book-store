@@ -1,0 +1,3 @@
+rootProject.name = 'book-store-parent-multiproject'
+include 'frontend'
+include 'backend'

@@ -1,0 +1,29 @@
+plugins {
+    id "com.github.node-gradle.node" version "5.0.0"
+}
+
+node {
+    download = true
+    version = "14.4.0"//"18.16.1"
+}
+
+tasks.register('npmBuild', NpmTask) {
+    args = [ 'run', 'build' ]
+}
+
+//assemble.dependsOn(npmBuild)
+
+task initTest(type: NpmTask) {
+    args = ['run', 'init-test']
+
+}
+
+// javascript unit testing
+task testUnit(type: NpmTask) {
+    args = ['run', 'test-unit']
+
+}
+
+////include js unit tests into project build lifecycle
+//test.dependsOn testUnit
+

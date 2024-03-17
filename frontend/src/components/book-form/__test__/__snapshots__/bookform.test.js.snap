@@ -1,0 +1,263 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot with Exactly one addBook callback prop 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div
+    style={
+      Object {
+        "display": "flex",
+      }
+    }
+  >
+    <input
+      className="form-control input-sm"
+      name="title"
+      onChange={[Function]}
+      placeholder="Title"
+      required={true}
+      style={
+        Object {
+          "flex": "5",
+          "margin": "10px 10px 0px 0px",
+          "padding": "5px",
+        }
+      }
+      type="text"
+      value=""
+    />
+    <input
+      className="form-control input-sm"
+      name="author"
+      onChange={[Function]}
+      placeholder="Author"
+      required={true}
+      style={
+        Object {
+          "flex": "5",
+          "margin": "10px 0px 0px 10px",
+          "padding": "5px",
+        }
+      }
+      type="text"
+      value=""
+    />
+  </div>
+  <br />
+  <div
+    style={
+      Object {
+        "display": "flex",
+      }
+    }
+  >
+    <input
+      className="form-control input-sm"
+      name="genre"
+      onChange={[Function]}
+      placeholder="Genre"
+      required={true}
+      style={
+        Object {
+          "flex": "5",
+          "margin": "10px 10px 0px 0px",
+          "padding": "5px",
+        }
+      }
+      type="text"
+      value=""
+    />
+    <input
+      className="form-control input-sm"
+      name="year"
+      onChange={[Function]}
+      placeholder="Year"
+      required={true}
+      style={
+        Object {
+          "flex": "5",
+          "margin": "10px 0px 0px 10px",
+          "padding": "5px",
+        }
+      }
+      type="text"
+      value=""
+    />
+  </div>
+  <br />
+  <div
+    style={
+      Object {
+        "display": "flex",
+      }
+    }
+  >
+    <input
+      className="form-control input-sm"
+      name="country"
+      onChange={[Function]}
+      placeholder="Country"
+      required={true}
+      style={
+        Object {
+          "flex": "5",
+          "margin": "10px 10px 0px 0px",
+          "padding": "5px",
+        }
+      }
+      type="text"
+      value=""
+    />
+    <span
+      style={
+        Object {
+          "flex": "5",
+          "margin": "10px 0px 0px 10px",
+          "padding": "5px",
+        }
+      }
+    />
+  </div>
+  <br />
+  <br />
+  <input
+    className="btn btn-primary btn-sm"
+    type="submit"
+    value="Submit"
+  />
+  <br />
+  <br />
+</form>
+`;
+
+exports[`matches snapshot with No Prop 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div
+    style={
+      Object {
+        "display": "flex",
+      }
+    }
+  >
+    <input
+      className="form-control input-sm"
+      name="title"
+      onChange={[Function]}
+      placeholder="Title"
+      required={true}
+      style={
+        Object {
+          "flex": "5",
+          "margin": "10px 10px 0px 0px",
+          "padding": "5px",
+        }
+      }
+      type="text"
+      value=""
+    />
+    <input
+      className="form-control input-sm"
+      name="author"
+      onChange={[Function]}
+      placeholder="Author"
+      required={true}
+      style={
+        Object {
+          "flex": "5",
+          "margin": "10px 0px 0px 10px",
+          "padding": "5px",
+        }
+      }
+      type="text"
+      value=""
+    />
+  </div>
+  <br />
+  <div
+    style={
+      Object {
+        "display": "flex",
+      }
+    }
+  >
+    <input
+      className="form-control input-sm"
+      name="genre"
+      onChange={[Function]}
+      placeholder="Genre"
+      required={true}
+      style={
+        Object {
+          "flex": "5",
+          "margin": "10px 10px 0px 0px",
+          "padding": "5px",
+        }
+      }
+      type="text"
+      value=""
+    />
+    <input
+      className="form-control input-sm"
+      name="year"
+      onChange={[Function]}
+      placeholder="Year"
+      required={true}
+      style={
+        Object {
+          "flex": "5",
+          "margin": "10px 0px 0px 10px",
+          "padding": "5px",
+        }
+      }
+      type="text"
+      value=""
+    />
+  </div>
+  <br />
+  <div
+    style={
+      Object {
+        "display": "flex",
+      }
+    }
+  >
+    <input
+      className="form-control input-sm"
+      name="country"
+      onChange={[Function]}
+      placeholder="Country"
+      required={true}
+      style={
+        Object {
+          "flex": "5",
+          "margin": "10px 10px 0px 0px",
+          "padding": "5px",
+        }
+      }
+      type="text"
+      value=""
+    />
+    <span
+      style={
+        Object {
+          "flex": "5",
+          "margin": "10px 0px 0px 10px",
+          "padding": "5px",
+        }
+      }
+    />
+  </div>
+  <br />
+  <br />
+  <input
+    className="btn btn-primary btn-sm"
+    type="submit"
+    value="Submit"
+  />
+  <br />
+  <br />
+</form>
+`;
